@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retention Ratio Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="retentionratioRadio" name="variables" checked>
+  <label for="retentionratioRadio">Retention ratio</label>
+
+  <input type="radio" id="netincomeRadio" name="variables" disabled>
+  <label for="netincomeRadio">Net income</label>
+
+  <input type="radio" id="dividendspaidRadio" name="variables">
+  <label for="dividendspaidRadio">Dividends paid</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Net income</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Dividends paid</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
